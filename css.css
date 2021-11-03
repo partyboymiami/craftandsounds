@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	
+	font-size: 20px;
+	background-color:aqua;
+}
+*{
+	border: dotted red;
+}
+
+
+body {
+	font-family:"Nasalization Rg";
+	color:hotpink;
+
+	right: 500px;
+	background-color:hotpink;
+	
+}
+
+
+header {
+	
+	
+	width: 100%;	
+	margin-bottom:10px;
+	background-image: url( "images/ryan-spencer-Um9AkOiIDcU-unsplash.jpg");
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;	
+	font-size: .75rem;
+	boder-color: yellow;
+
+	z-index:1;
+
+	
+	
+}
+
+.first-pic{
+	background-image:url("images/ryan-spencer-Um9AkOiIDcU-unsplash.jpg" );
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+	position:absolute;
+	
+	
+}
+.button-learnnmore{
+	
+	position:absolute;
+	width:200px;
+	text-align:center;
+	border-radius:30px;
+	background-color:black;
+	border: red solid 2px;
+	right: 50%;
+	top:50%;
+	
+	font-size: 1rem;
+	margin-left: 500px;
+	text-decoration: none;
+	color:#fff;
+	padding:20px;
+}
+img {
+  max-width: 100%;
+  height: 80%;
+	 border-radius: 100%;
+	 
+}
+.content-pic1 img {
+	
+	height: 200PX;
+	
+	
+	
+}
+.content-pic0 {
+	
+	background-color: #000;
+	
+	height: 100%;
+	width: 1850px;
+	padding: 10px;
+	margin-top:20px;
+	display: flex;
+	flex-wrap:wrap;
+	left: 50%;
+	flex-shrink:2;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+
+ .content-pic1  { 	
+	  
+		
+	align-items:center; 	
+	 width:  25%;	 
+	 position:absolute;
+	 padding: 10px;
+	 
+	  border-radius: 100px;
+	 margin: 5px;
+	 right: -175px;
+	 background-color:#fff;
+	
+	flex-shrink:1;
+	 display:flex;
+  
+   justify-content:center;  
+	
+}
+
+.navigation_bar {
+	
+	background-color: red;		
+	padding: 20px;
+	display: flex;
+	width: 1820px;
+	position: fixed;
+	z-index: 1;
+	opacity: 0.4;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	
+	
+	
+	
+	
+}
+/* Social Media */
+
+
+	
+	
+nav a {
+	
+	margin-right: 150px;
+	border: 5px solid #5725C0;
+	background-color: aqua;
+	padding: 15px;
+	border-radius: 99px;	
+	color: #000000;	
+	margin-bottom:200px;
+	
+	
+}
+span {
+	
+	
+	
+}
+
+
+
+
+
+
+.cns-logo {
+	
+	width:250px;	
+	height:	100px;
+border: 5px solid #5725C0;
+
+
+	
+	
+	
+}
+	
+
+
+/* Content-pic */
+
+
+
+
+.text-block {
+	
+    background-color: red;
+    color: white;	
+	
+	width: 150px;
+	border-radius: 40%;
+	font-size: 0.5rem;
+	align-content: center;
+	alignt-item: center;
+	justify-content: center;
+	display:flex;
+	bottom:100px;
+	left:150px;
+	top:50px;
+	flex-wrap;wra;
+	
+}
+
+
+
+
+	
+
+footer img { 
+		
+	height:	35px;
+	width: 35px;	
+}
+
+footer{
+	
+	
+	background-color: #606060;
+	padding: 50px;
+	margin:1px;
+	margin-top: 10px;
+	height:9%;
+	width:94.4%;
+		
+		
+}
+
+.footer-container{
+	
+	background-color: aqua;
+	
+	width: 95%;
+	padding: 5px;
+	height: 300px;
+	display:block;
+	
+	
+}
+
+.social-media li {
+
+	background-color:#000;	
+		display: inline-block;
+	
+		
+	
+}
+.social-media ul{
+	
+	
+	background-color:red;
+
+	padding:5px;
+	
+	
+
+}
+
+.social-media {
+	
+
+	
+
+	background-color:yellow;
+	margin-right: 12px;
+		
+	float:left;
+	padding:10px;
+	
+	
+	
+	
+}
+
+.email {
+	
+	width:25%;
+	background-color:red;
+	padding:20px;
+	margin:9px;
+	float:left;
+	
+}
+.email a {
+	width:20%;
+	background-color: blue;
+	padding:5px;
+	color:#fff;
+	margin-left:50px;
+}
+.signature {
+	
+	padding:2px;
+	width:20%;
+	background-color:#000;
+	border-radius: 50px;
+		float:left;;
+		
+	
+		
+}
+.signature a {
+	
+	padding: 5px;	
+	background-color:fuchsia;
+	display:inline-block;
+	border-radius: 25px;
+	margin:50px;
+	
+	
+}
+
+
+
