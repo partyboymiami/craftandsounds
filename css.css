@@ -89,7 +89,6 @@ img {
 	margin-top:20px;
 	display: flex;
 	flex-wrap:wrap;
-	left: 50%;
 	flex-shrink:2;
 	justify-content: center;
 	align-items: center;
@@ -103,18 +102,14 @@ img {
 	  
 		
 	align-items:center; 	
-	 width:  25%;	 
-	 position:absolute;
-	 padding: 10px;
-	 
+	 width:  25%;		
+	 padding: 10px;	 
 	  border-radius: 100px;
 	 margin: 5px;
 	 right: -175px;
-	 background-color:#fff;
-	
+	 background-color:#fff;	
 	flex-shrink:1;
-	 display:flex;
-  
+	 display:flex;  
    justify-content:center;  
 	
 }
@@ -199,7 +194,7 @@ border: 5px solid #5725C0;
 	bottom:100px;
 	left:150px;
 	top:50px;
-	flex-wrap;wra;
+	flex-wrap:wrap;
 	
 }
 
